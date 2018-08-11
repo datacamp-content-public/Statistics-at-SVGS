@@ -1,6 +1,6 @@
 ---
-title: Template Chapter 1
-description: This is a template chapter.
+title: Data Visualization
+description: This chapter will help you get your feet wet with R and RStudio and the tidyverse
 ---
 
 ## An exercise title written in sentence case
