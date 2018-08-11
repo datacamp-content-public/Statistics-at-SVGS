@@ -1,20 +1,22 @@
 ---
-title: Data Visualization
-description: This chapter will help you get your feet wet with R, RStudio, and the tidyverse
+  title: "Unit 1:  Data Visualization"
+  description: "This is a template chapter."
 ---
 
 ## An exercise title written in sentence case
 
 ```yaml
-type: NormalExercise
+type: NormalExercise 
 lang: r
-xp: 100
+xp: 100 
 skills: 1
-key: 559a30d819
+key: b99a54db27   
 ```
 
-This is the assignment text. It should help provide students with the background information needed.
+
+This is the assignment text. It shod help provide students with the background information needed.
 The instructions that follow should be in bullet point form with clear guidance for what is expected.
+
 
 `@instructions`
 - Instruction 1
