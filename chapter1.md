@@ -32,7 +32,7 @@ Use the `tidyverse` cheatsheet to replace the scatterplot below with one that dr
 
 ```{r}
 # Load datasets and packages here.
-library(ggplot2)
+
 
 ```
 
