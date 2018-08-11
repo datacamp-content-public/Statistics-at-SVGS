@@ -1,4 +1,4 @@
 title: Statistics at SVGS
-description: A description of the course.
+description: This DataCamp course goes along with the Statistics course at SVGS.
 programming_language: r
 from: 'r-base-prod:v1.0.1'
