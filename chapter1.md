@@ -14,9 +14,9 @@ key: b99a54db27
 ```
 Use the `tidyverse` cheatsheet to replace the scatterplot below with one that draws boxplots.   Try your best guess. 
 
-```{r}
+```{r eval=TRUE}
 library(ggplot2)
-ggplot(mpg)+geom_point(aes(x=class,hwy))
+ggplot(mpg)+geom_point(aes(x=class,y=hwy))
 
 ```
 This is the assignment text. It shod help provide students with the background information needed.
@@ -39,6 +39,8 @@ The instructions that follow should be in bullet point form with clear guidance 
 
 ```{r}
 # Load datasets and packages here.
+library(ggplot2)
+ggplot(mpg)+geom_point(aes(x=class,y=hwy))
 ```
 
 `@sample_code`
