@@ -1,6 +1,6 @@
 ---
 title: Data Visualization
-description: This chapter will help you get your feet wet with R and RStudio and the tidyverse
+description: This chapter will help you get your feet wet with R, RStudio, and the tidyverse
 ---
 
 ## An exercise title written in sentence case
