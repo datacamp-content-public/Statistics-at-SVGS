@@ -14,19 +14,12 @@ key: b99a54db27
 ```
 Use the `tidyverse` cheatsheet to replace the scatterplot below with one that draws boxplots.   Try your best guess. 
 
-```{r}
-library(ggplot2)
-ggplot(mpg)+geom_point(aes(x=class,y=hwy))
-
-```
-This is the assignment text. It shod help provide students with the background information needed.
-The instructions that follow should be in bullet point form with clear guidance for what is expected.
 
 
 `@instructions`
 - Instruction 1
 - Instruction 2
-- Instruction 3
+- Instruction 3z
 - Instruction 4
 
 `@hint`
