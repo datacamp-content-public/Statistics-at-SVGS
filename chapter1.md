@@ -3,7 +3,7 @@
   description: "This is a template chapter."
 ---
 
-## An exercise title written in sentence case
+## Exploring ggplot2
 
 ```yaml
 type: NormalExercise 
@@ -13,7 +13,13 @@ skills: 1
 key: b99a54db27   
 ```
 
+Use the `tidyverse` cheatsheet to replace the scatterplot below with one that draws boxplots.   Try your best guess. 
 
+```{r}
+library(ggplot2)
+ggplot(mpg)+geom_point(aes(x=class,hwy))
+
+```
 This is the assignment text. It shod help provide students with the background information needed.
 The instructions that follow should be in bullet point form with clear guidance for what is expected.
 
