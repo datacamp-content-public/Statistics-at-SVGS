@@ -12,7 +12,6 @@ xp: 100
 skills: 1
 key: b99a54db27   
 ```
-
 Use the `tidyverse` cheatsheet to replace the scatterplot below with one that draws boxplots.   Try your best guess. 
 
 ```{r}
