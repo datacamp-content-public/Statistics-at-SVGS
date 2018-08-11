@@ -14,6 +14,10 @@ key: b99a54db27
 ```
 Use the `tidyverse` cheatsheet to replace the scatterplot below with one that draws boxplots.   Try your best guess. 
 
+```{r}
+hist(runif(100,10,20))
+```
+
 
 
 `@instructions`
