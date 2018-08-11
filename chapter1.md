@@ -19,7 +19,7 @@ Use the `tidyverse` cheatsheet to replace the scatterplot below with one that dr
 `@instructions`
 - Instruction 1
 - Instruction 2
-- Instruction 3z
+- Instruction 3
 - Instruction 4
 
 `@hint`
@@ -39,29 +39,25 @@ Use the `tidyverse` cheatsheet to replace the scatterplot below with one that dr
 `@sample_code`
 
 ```{r}
-# Your
-# sample
-# code
-# should
-# be
-# ideally
-# 10 lines or less,
-# with a max
-# of 16 lines.
+# Don't forget to load the ggplot2 library.
+
+
+
 ```
 
 `@solution`
 
 ```{r}
-# Answer goes here
-# Make sure to match the comments with your sample code
-# to help students see the differences from solution
-# to given.
+# Don't forget to load the ggplot2 library.
+library(ggplot2)
+
+ggplot(mpg, aes(x=class,y=hwy)) + 
+  geom_boxplot()
 ```
 
 `@sct`
 
 ```{r}
 # Update this to something more informative.
-success_msg("Some praise! Then reinforce a learning objective from the exercise.")
+success_msg("Great job!  You nailed it.")
 ```
