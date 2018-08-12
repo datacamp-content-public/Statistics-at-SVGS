@@ -16,61 +16,52 @@ key: b99a54db27
 
 Use the `tidyverse` cheatsheet to replace the scatterplot below with one that draws boxplots.   Try your best guess. 
 
-![](mpg_scatter_class_hwy.png)
+![](https://svgsstats.github.io/forDataCamp/mpg_scatter_class_hwy.png)
 ```{r}
 library(ggplot2)
-ggplot(mpg)+geom_point(aes(x=class,y=hwy))
-
+ggplot(mpg) +
+  geom_point(aes(x=class,y=hwy))
 ```
-This is the assignment text. It shod help provide students with the background information needed.
-The instructions that follow should be in bullet point form with clear guidance for what is expected.
-
 
 `@instructions`
-- Instruction 1
-- Instruction 2
-- Instruction 3
-- Instruction 4
+- Load the `ggplot2` package using a `library()` call. 
+- Use the `ggplot()` function to construct a graph similar to the one pictured, but with boxplots instead.
+- Hit *Run Code* to test your code, and *Submit Answer* when you think you have it right. 
 
 `@hint`
-- Here is the hint for this setup problem. 
-- It should get students 50% of the way to the correct answer.
-- So don't provide the answer, but don't just reiterate the instructions.
-- Typically one hint per instruction is a sensible amount.
+- Reference the `tidyverse` cheatsheet to find what the boxplot geom is called. 
+- The x-axis should be `class` and the y-axis should have the `hwy` variable.
+- Don't forget to put the `x=class` inside of the `aes()` function.
+
 
 `@pre_exercise_code`
 
 ```{r}
 # Load datasets and packages here.
-a<-c(2,3)
+
 ```
 
 `@sample_code`
 
 ```{r}
-# Your
-# sample
-# code
-# should
-# be
-# ideally
-# 10 lines or less,
-# with a max
-# of 16 lines.
+# Load the ggplot2 package first
+
+# Put your ggplot() function below this line.
 ```
 
 `@solution`
 
 ```{r}
-# Answer goes here
-# Make sure to match the comments with your sample code
-# to help students see the differences from solution
-# to given.
+# Load the ggplot2 package first
+library(ggplot2)
+# Put your ggplot() function below this line. 
+ggplot(mpg) + 
+  geom_boxplot(aes(x=class,y=hwy))
 ```
 
 `@sct`
 
 ```{r}
 # Update this to something more informative.
-success_msg("Some praise! Then reinforce a learning objective from the exercise.")
+success_msg("Great job!  The tidyverse cheatsheet is a great reference tool for finding the right function for a particular graph.")
 ```
