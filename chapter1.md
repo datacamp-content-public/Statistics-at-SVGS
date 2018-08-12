@@ -77,7 +77,7 @@ xp: 100
 skills: 1
 ```
 
-Another exercise?
+This is an exercise on DataCamp.  I'm really just playing around with the system for the time being.  I sure hope no one sees this. 
 
 `@instructions`
 - Load the `ggplot2` package using a `library()` call. 
