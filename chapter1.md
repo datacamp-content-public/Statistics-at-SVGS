@@ -12,9 +12,17 @@ xp: 100
 skills: 1
 key: b99a54db27   
 ```
+
+
 Use the `tidyverse` cheatsheet to replace the scatterplot below with one that draws boxplots.   Try your best guess. 
 
-![](https://www.w3schools.com/w3css/img_lights.jpg)
+```{r}
+library(ggplot2)
+ggplot(mpg)+geom_point(aes(x=class,y=hwy))
+
+```
+This is the assignment text. It shod help provide students with the background information needed.
+The instructions that follow should be in bullet point form with clear guidance for what is expected.
 
 
 `@instructions`
@@ -33,32 +41,35 @@ Use the `tidyverse` cheatsheet to replace the scatterplot below with one that dr
 
 ```{r}
 # Load datasets and packages here.
-
-
+a<-c(2,3)
 ```
 
 `@sample_code`
 
 ```{r}
-# Don't forget to load the ggplot2 library.
-
-
-
+# Your
+# sample
+# code
+# should
+# be
+# ideally
+# 10 lines or less,
+# with a max
+# of 16 lines.
 ```
 
 `@solution`
 
 ```{r}
-# Don't forget to load the ggplot2 library.
-library(ggplot2)
-
-ggplot(mpg, aes(x=class,y=hwy)) + 
-  geom_boxplot()
+# Answer goes here
+# Make sure to match the comments with your sample code
+# to help students see the differences from solution
+# to given.
 ```
 
 `@sct`
 
 ```{r}
 # Update this to something more informative.
-success_msg("Great job!  You nailed it.")
+success_msg("Some praise! Then reinforce a learning objective from the exercise.")
 ```
