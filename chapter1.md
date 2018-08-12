@@ -22,6 +22,8 @@ library(ggplot2)
 ggplot(mpg)+geom_point(aes(x=class,y=hwy))
 
 ```
+![](assets/mps_scatter_class_hwy.png)
+dude
 This is the assignment text. It shod help provide students with the background information needed.
 The instructions that follow should be in bullet point form with clear guidance for what is expected.
 
