@@ -18,7 +18,6 @@ Use the `tidyverse` cheatsheet to replace the scatterplot below with one that dr
 
 ![](https://svgsstats.github.io/forDataCamp/mpg_scatter_class_hwy.png)
 ```{r}
-library(ggplot2)
 ggplot(mpg) +
   geom_point(aes(x=class,y=hwy))
 ```
