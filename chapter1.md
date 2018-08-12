@@ -71,10 +71,11 @@ success_msg("Great job!  The tidyverse cheatsheet is a great reference tool for 
 ## Is this what another exercise looks like?
 
 ```yaml
-type: NormalExercise 
+type: NormalExercise
 lang: r
-xp: 100 
+xp: 100
 skills: 1
+key: f0c6a9fb86
 ```
 
 This is an exercise on DataCamp.  I'm really just playing around with the system for the time being.  I sure hope no one sees this. 
