@@ -66,6 +66,7 @@ ggplot(mpg) +
 success_msg("Great job!  The tidyverse cheatsheet is a great reference tool for finding the right function for a particular graph.")
 ```
 
+---
 
 ## Is this what another exercise looks like?
 
