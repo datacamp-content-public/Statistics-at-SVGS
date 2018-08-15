@@ -12,12 +12,10 @@ xp: 100
 skills: 1
 key: b99a54db27   
 ```
+The dataset that you are working with in these first few exercises contains the percentage of individuals in each state who were born in a foreign country.  We should investigate the dataset first to see what variables are available.  The `head()` function will help us do this.   You simply pass the name of your dataset into the `head()` function and you will see the first 6 rows of the dataset with variable names. 
 
-The dataset that you are working with in these first few exercises contains the percentage of individuals in each state who were born in a foreign country.  We always want to investigate the dataset first to determine what variables are available.  One function that gives you a quick snapshot of this is the `head()` function.   To use this, you simply pass the name of your dataset into the `head()` function and R will show you the first few rows of the dataset coupled with the variable names.  
+The `head()` function takes two arguments.  The first argument is the name of the dataset, and the second is how many rows you wish to see.  
 
-The `head()` function takes two arguments.  The first argument is the name of the dataset, and the second is how many rows you wish to see.  By default, you will be shown 6 rows, but you can specify how many rows by making use of the 2nd argument:
-
-`head(NAME OF DATA, # OF ROWS)`
 
 `@instructions`
 - Use the `head()` function to view the first 10 rows of the dataset. 
