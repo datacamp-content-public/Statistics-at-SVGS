@@ -56,56 +56,56 @@ head(state_foreign_born,10)
 success_msg("Great job!  You are `head`ing in the right direction!")
 ```
 
----
-
-## Which states have the highest percentage of foreign born?
-
-```yaml
-type: NormalExercise
-lang: r
-xp: 100
-skills: 1
-key: f0c6a9fb86
-```
-
-It may be that you want to learn a bit about which states have the highest percentage of people who are foreign born.   You can do this with the `dplyr` package's `arrange` function. See if you can edit the chunk below to do this. Feel free to reference the **Tidyverse for Beginners** cheat sheet. 
-
-
-`@instructions`
-- Use `dplyr`'s `arrange` function to sort the data in `state_foreign_born` from largest to smallest. 
-- Hit *Run Code* to test your code, and *Submit Answer* when you think you have it right. 
-
-`@hint`
-- Don't forget to put the `percent_foreign_born` variable inside of the arrange function. 
-- Did you remember how to sort it from LARGEST to SMALLEST?  Reference your cheat sheet for help. 
-
-
-`@pre_exercise_code`
-
-```{r}
-# Load datasets and packages here.
-
-```
-
-`@sample_code`
-
-```{r}
-state_foreign_born %>% 
-  ____write something here_____
-  
-```
-
-`@solution`
-
-```{r}
-state_foreign_born %>% 
-  arrange(desc(percent_foreign_born))
-```
-
-`@sct`
-
-```{r}
-# Update this to something more informative.
-success_msg("Great job!")
-```
-
+# ---
+# 
+# ## Which states have the highest percentage of foreign born?
+# 
+# ```yaml
+# type: NormalExercise
+# lang: r
+# xp: 100
+# skills: 1
+# key: f0c6a9fb86
+# ```
+# 
+# It may be that you want to learn a bit about which states have the highest percentage of people who are foreign born.   You can do this with the `dplyr` package's `arrange` function. See if you can edit the chunk below to do this. Feel free to reference the **Tidyverse for Beginners** cheat sheet. 
+# 
+# 
+# `@instructions`
+# - Use `dplyr`'s `arrange` function to sort the data in `state_foreign_born` from largest to smallest. 
+# - Hit *Run Code* to test your code, and *Submit Answer* when you think you have it right. 
+# 
+# `@hint`
+# - Don't forget to put the `percent_foreign_born` variable inside of the arrange function. 
+# - Did you remember how to sort it from LARGEST to SMALLEST?  Reference your cheat sheet for help. 
+# 
+# 
+# `@pre_exercise_code`
+# 
+# ```{r}
+# # Load datasets and packages here.
+# 
+# ```
+# 
+# `@sample_code`
+# 
+# ```{r}
+# state_foreign_born %>% 
+#   ____write something here_____
+#   
+# ```
+# 
+# `@solution`
+# 
+# ```{r}
+# state_foreign_born %>% 
+#   arrange(desc(percent_foreign_born))
+# ```
+# 
+# `@sct`
+# 
+# ```{r}
+# # Update this to something more informative.
+# success_msg("Great job!")
+# ```
+# 
