@@ -32,7 +32,7 @@ The `head()` function takes two arguments.  The first argument is the name of th
 ```{r}
 # Load datasets and packages here
 library(tidyverse)
-state_foreign_born<-read_csv("state_foreign_born.csv")
+state_foreign_born<-read_csv("datasets/state_foreign_born.csv")
 
 ```
 
