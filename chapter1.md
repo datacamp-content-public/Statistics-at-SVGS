@@ -81,6 +81,7 @@ It may be that you want to learn a bit about which states have the highest perce
 
 ```{r}
 # Load datasets and packages here.
+library(dplyr,warn.conflicts=FALSE)
 state_foreign_born<-read.csv("http://s3.amazonaws.com/assets.datacamp.com/production/repositories/3374/datasets/9e5e6297329fe3304830bf454bc9445bd16f9621/state_foreign_born.csv")
 ```
 
