@@ -51,7 +51,7 @@ head(state_foreign_born,10)
 
 ```{r}
 # Update this to something more informative.
-success_msg("Great job!  You are `head`ing in the right direction!")
+success_msg("Great job!  You are heading in the right direction!")
 ```
 
 # ---
