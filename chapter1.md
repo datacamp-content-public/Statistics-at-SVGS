@@ -29,7 +29,7 @@ The `head()` function takes two arguments.  The first argument is the name of th
 
 ```{r}
 # Load datasets and packages here
-library(tidyverse)
+library(readr)
 state_foreign_born<-read_csv("http://s3.amazonaws.com/assets.datacamp.com/production/repositories/3374/datasets/9e5e6297329fe3304830bf454bc9445bd16f9621/state_foreign_born.csv")
 
 ```
