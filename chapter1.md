@@ -12,7 +12,7 @@ xp: 100
 skills: 1
 key: b99a54db27   
 ```
-The dataset that you are working with contains the percentage of individuals in each state who were born in a foreign country.  The `head()` function will help us *investigate* the data set to see what variables are available.   Pass the name of your dataset into the `head()` function and you will see the first 6 rows of the dataset with variable names. 
+The dataset that you are working with is called `state_foreign_born`.  It contains the percentage of individuals in each state who were born in a foreign country.  The `head()` function will help us *investigate* the data set to see what variables are available.   Pass the name of your dataset into the `head()` function and you will see the first 6 rows of the dataset with variable names. 
 
 The `head()` function takes two arguments.  The first argument is the name of the dataset, and the second is how many rows you wish to see.  
 
