@@ -1,8 +1,55 @@
 ---
-  title: "Histogram and Boxplot Construction"
+  title: "Contingency Table Construction Construction"
   description: "Using ggplot2 to learn some basics of R."
 ---
+## Constructing a Contingency Table
 
+Using the `janitor` package, we can construct a contingency table showing the relationships between categorical variables.  In the `janitor` package, the function that does this is called [`tabyl`](https://www.rdocumentation.org/packages/janitor/versions/1.0.0/topics/tabyl).  The first argument it takes is the name of the dataset.  The next two arguments are the row and column variable names respectively.   
+
+
+`@instructions`
+The dataset has been loaded into your workspace as `census_at_school`. It represents survey results from two questions on a random sample of USA high school students.  One question about what superpower they wish they had and another about gender. 
+
+- Load the `janitor` library into your workspace.
+- Use the `tabyl()` function to make a contingency table of Superpower versus Gender.  Put Superpower as the rows and Gender as the columns. 
+
+`@hint`
+- Remember to put the name of the dataset in your `library()` statement. 
+- Simply pass the dataset, `Superpower`, and `Gender` variable into the `tabyl()` function to make your contingency table. 
+
+`@pre_exercise_code`
+```{r}
+# load datasets and packages here
+
+```
+
+
+`@sample_code`
+
+```{r}
+# Load your library first
+
+# Construct the contingency table
+
+```
+
+`@solution`
+
+```{r}
+# Load your library first
+library(dplyr)
+```
+
+`@sct`
+
+```{r}
+# Update this to something more informative.
+success_msg("Great job!  You are heading in the right direction!")
+```
+
+
+
+---
 ## Investigating the dataset
 
 ```yaml
@@ -69,7 +116,7 @@ It may be that you want to learn a bit about which states have the highest perce
 
 
 `@instructions`
-- Use `dplyr`'s `arrange` function to sort the data in `state_foreign_born` from largest to smallest.
+- Use `dplyr`'s `arrange` function to sort the `percent_foreign_born` variable in `state_foreign_born` from largest to smallest.
 - Hit *Run Code* to test your code, and *Submit Answer* when you think you have it right.
 
 `@hint`
