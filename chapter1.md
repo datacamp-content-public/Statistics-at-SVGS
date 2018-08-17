@@ -28,6 +28,8 @@ The dataset has been loaded into your workspace as `census_at_school`. It repres
 `@pre_exercise_code`
 ```{r}
 # load datasets and packages here
+library(readxl)
+census_at_school <- read_excel("https://assets.datacamp.com/production/repositories/3374/datasets/a11215090c6e36f0c1b33a3686ccc704bc6995d3/census_at_school.xlsx")
 
 ```
 
