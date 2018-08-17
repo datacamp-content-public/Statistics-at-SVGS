@@ -4,6 +4,14 @@
 ---
 ## Constructing a Contingency Table
 
+```yaml
+type: NormalExercise 
+lang: r
+xp: 100 
+skills: 1
+key: b99a54db27   
+```
+
 Using the `janitor` package, we can construct a contingency table showing the relationships between categorical variables.  In the `janitor` package, the function that does this is called [`tabyl`](https://www.rdocumentation.org/packages/janitor/versions/1.0.0/topics/tabyl).  The first argument it takes is the name of the dataset.  The next two arguments are the row and column variable names respectively.   
 
 
