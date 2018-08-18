@@ -7,7 +7,7 @@ install_version("dplyr", "0.7.5")
 install_version("tidyr", "0.8.1")
 install_version("purrr", "0.2.5")
 install_version("readxl","1.1.0")
-install_version("janitor","1.1.1")
+install_version("janitor")
 #install_version("readr","1.1.1")
 
 ##### Install packages in development from GitHub #####
